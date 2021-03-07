@@ -1,0 +1,3 @@
+[submodule "plugin/bitrix-stubs"]
+	path = plugin/bitrix-stubs
+	url = git@github.com:duxa174/bitrix-stubs.git
