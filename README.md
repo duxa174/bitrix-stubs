@@ -1,5 +1,5 @@
 # Bitrix Autocomplete
-Stubs | [JetBrains Plugin](https://github.com/duxa174/bitrix-stubs/tree/plugin) | [Generator](https://github.com/duxa174/bitrix-stubs/tree/generator)
+[Stubs](https://github.com/duxa174/bitrix-stubs/tree/stubs) | JetBrains Plugin | [Generator](https://github.com/duxa174/bitrix-stubs/tree/generator)
 
 ## Install
 
