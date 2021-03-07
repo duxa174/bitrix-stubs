@@ -1,0 +1,15 @@
+<?php
+
+namespace Bitrix\Im\Rest\v1;
+
+class Revision extends \Bitrix\Main\Engine\Controller
+{
+    /**
+     * @restMethod im.revision.get
+     *
+     * @return array
+     */
+    public function getAction()
+    {
+    }
+}

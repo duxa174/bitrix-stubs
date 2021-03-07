@@ -1,0 +1,5 @@
+<?php
+
+function getRuleHtml($companyId)
+{
+}

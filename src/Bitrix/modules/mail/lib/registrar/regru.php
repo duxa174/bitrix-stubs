@@ -1,0 +1,55 @@
+<?php
+
+namespace Bitrix\Mail\Registrar;
+
+class RegRu extends \Bitrix\Mail\Registrar\Registrar
+{
+    /**
+     * Checks domain available.
+     * @param string $user User name.
+     * @param string $password User password.
+     * @param string $domain Domain name.
+     * @param string|null &$error Error message if occurred.
+     * @return bool|null Returns true if domain exists.
+     */
+    public static function checkDomain(string $user, string $password, string $domain, ?string &$error) : ?bool
+    {
+    }
+    /**
+     * Suggests domains by query words.
+     * @param string $user User name.
+     * @param string $password User password.
+     * @param string $word1 Query word 1.
+     * @param string $word2 Query word 2.
+     * @param array $tlds Query tlds.
+     * @param string|null &$error Error message if occurred.
+     * @return array|null
+     */
+    public static function suggestDomain(string $user, string $password, string $word1, string $word2, array $tlds, ?string &$error) : ?array
+    {
+    }
+    /**
+     * Creates new domain.
+     * @param string $user User name.
+     * @param string $password User password.
+     * @param string $domain Domain name.
+     * @param array $params Additional params.
+     * @param string|null &$error Error message if occurred.
+     * @return bool|null Returns true on success.
+     */
+    public static function createDomain(string $user, string $password, string $domain, array $params, ?string &$error) : ?bool
+    {
+    }
+    /**
+     * Updates domain DNS.
+     * @param string $user User name.
+     * @param string $password User password.
+     * @param string $domain Domain name.
+     * @param array $params Additional params.
+     * @param string|null &$error Error message if occurred.
+     * @return bool|null Returns true on success.
+     */
+    public static function updateDns(string $user, string $password, string $domain, array $params, ?string &$error) : ?bool
+    {
+    }
+}

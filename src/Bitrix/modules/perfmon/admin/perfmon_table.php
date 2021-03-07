@@ -1,0 +1,5 @@
+<?php
+
+function TableExists($tableName)
+{
+}

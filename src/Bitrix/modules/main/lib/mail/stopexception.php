@@ -1,0 +1,11 @@
+<?php
+
+namespace Bitrix\Main\Mail;
+
+class StopException extends \Bitrix\Main\SystemException
+{
+    protected $isBufferCleaned = false;
+    public function __construct($message = "", $code = 0, \Exception $previous = null)
+    {
+    }
+}
