@@ -1,14 +1,19 @@
 <idea-plugin version="2">
   <id>com.github.duxa174.bitrix-stubs</id>
   <name>Bitrix Autocomplete</name>
-  <version>1.0.0</version>
-  <vendor url="https://github.com/duxa174/bitrix-stubs/tree/plugin">duxa174</vendor>
+  <version>1.0.1</version>
+  <vendor url="mailto:duxa174@gmail.com">duxa174</vendor>
 
   <description><![CDATA[
-    Provides autocomplete functionality for Bitrix.
+    Adds auto-completion support for Bitrix Framework projects.<br>
+    <img src="https://raw.githubusercontent.com/duxa174/bitrix-stubs/plugin/.github/description-1.png">
   ]]></description>
 
   <change-notes><![CDATA[
+    <h3>1.0.1</h3>
+    <ul>
+      <li>Publishing in the marketplace</li>
+    </ul>
     <h3>1.0.0</h3>
     <ul>
       <li>IDE Stubs for Bitrix v20.200.300</li>

@@ -1,0 +1,16 @@
+language: generic
+script:
+  - cd plugin/
+  - zip -r jetbrains-bitrix-stub-plugin-$TRAVIS_TAG.jar *
+deploy:
+  provider: releases
+  api_key: $CI_TOKEN_DEPLOY
+  file: jetbrains-bitrix-stub-plugin-$TRAVIS_TAG.jar
+  skip_cleanup: true
+  on:
+    tags: true
+git:
+  submodules: false
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --remote --recursive
